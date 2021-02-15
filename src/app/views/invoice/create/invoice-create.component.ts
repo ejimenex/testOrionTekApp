@@ -54,7 +54,8 @@ export class InvoiceAddComponent implements OnInit {
       modifiedBy: null,
       createdBy: '',
       modifiedDate: null,
-      price:0
+      price:this.product.price,
+      productName:this.product.name
      
     });
        

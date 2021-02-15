@@ -8,6 +8,7 @@ total:number
 export class InvoiceDetail extends BaseModel
 {
 invoiceId:string
+productName:string
 productId:string
 quantity:number
 price:number
